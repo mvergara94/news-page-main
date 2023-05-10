@@ -1,0 +1,30 @@
+@import url('frontendmentor-footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import url('header.css');
+@import url('main-article.css');
+
+:root {
+  --primary-font: 'Inter', sans-serif;
+
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 15px;
+  margin: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}

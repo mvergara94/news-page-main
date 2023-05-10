@@ -1,0 +1,37 @@
+.main-article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-article__img {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/image-web-3-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 16/14; /* proporção da imagem */
+}
+
+.main-article__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--very-dark-blue);
+  line-height: 2.5rem;
+}
+
+.main-article__text {
+  color: var(--dark-grayish-blue);
+  line-height: 1.5rem;
+}
+
+.main-article__link {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: var(--off-white);
+  background-color: var(--soft-red);
+  max-width: 50%;
+  text-align: center;
+  padding: 1rem 0.5rem;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenge by frontendmentor, simulates a fictional news home page"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="assets/style/reset.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header class="header">
+      <div class="header__logo"></div>
+      <nav class="header__menu">
+        <input type="checkbox" id="menu-open" class="header__menu__btn" />
+        <label for="menu-open" class="menu__label__open">
+          <span class="menu__label__img-open"></span>
+        </label>
+        <input type="checkbox" id="menu-close" class="header__menu__btn" />
+        <label for="menu-close" class="menu__label__close">
+          <span class="menu__label__img-close"></span>
+        </label>
+        <ul class="header__menu__list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-article">
+        <div class="main-article__img"></div>
+        <h1 class="main-article__title">The Bright Future of Web 3.0?</h1>
+        <p class="main-article__text">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a href="" class="main-article__link">Read more</a>
+      </section>
+      <section>
+        <h2>New</h2>
+        <div>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <img
+            src="assets/images/image-retro-pcs.jpg"
+            alt="Image of old computers"
+          />
+          <span>01</span>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+        <div>
+          <img
+            src="assets/images/image-top-laptops.jpg"
+            alt="Image of a keboard laptop"
+          />
+          <span>02</span>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+        <div>
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            alt="People holding a video-game controller"
+          />
+          <span> 03</span>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

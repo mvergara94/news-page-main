@@ -1,4 +1,12 @@
+footer {
+  position: absolute;
+  bottom: -20px;
+  right: 50%;
+  margin-right: -150px;
+}
+
 .attribution {
+  width: 300px;
   font-size: 11px;
   text-align: center;
 }

@@ -4,6 +4,16 @@
   gap: 1rem;
 }
 
+.new-lists a:hover > .new-lists__container,
+.new-lists a:active > .new-lists__container {
+  background-color: var(--very-dark-blue);
+}
+
+.new-lists a:hover > .new-lists__container *,
+.new-lists a:active > .new-lists__container * {
+  color: var(--off-white);
+}
+
 .new-lists__container {
   display: grid;
   column-gap: 0.5rem;
@@ -13,6 +23,11 @@
     'img text';
   grid-template-columns: 30% 70%;
   box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+}
+
+.new-lists__container * {
+  transition: 0.3s ease-in-out;
 }
 
 .new-lists__container img {

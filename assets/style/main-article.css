@@ -36,4 +36,10 @@
   max-width: 50%;
   text-align: center;
   padding: 1rem 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.main-article__link:hover,
+.main-article__link:active {
+  background-color: var(--soft-orange);
 }

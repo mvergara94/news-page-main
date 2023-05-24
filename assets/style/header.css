@@ -76,6 +76,10 @@
   color: var(--very-dark-blue);
 }
 
+.header__menu__list li a:hover {
+  color: var(--soft-red);
+}
+
 .overlay {
   position: fixed;
   top: 0;

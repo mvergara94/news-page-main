@@ -54,3 +54,18 @@
   line-height: 1.5rem;
   grid-area: text;
 }
+
+@media (min-width: 1024px) {
+  .new-lists {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .new-lists__container {
+    height: 100%;
+  } 
+
+  .new-lists__container p {
+    padding-right: 1rem;
+  }
+}

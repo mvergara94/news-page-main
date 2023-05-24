@@ -1,0 +1,24 @@
+@media (min-width: 1024px) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      'main main side'
+      'main main side'
+      'list list list';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    row-gap: 2rem;
+  }
+
+  .main-article {
+    grid-area: main;
+  }
+
+  .sec-articles {
+    grid-area: side;
+  }
+
+  .new-lists {
+    grid-area: list;
+  }
+}

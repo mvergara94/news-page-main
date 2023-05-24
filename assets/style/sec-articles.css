@@ -44,3 +44,9 @@
 .sec-articles__article p {
   color: var(--grayish-blue);
 }
+
+@media (min-width: 1024px) {
+  .sec-articles {
+    margin: 0;
+  }
+}

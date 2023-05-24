@@ -41,5 +41,54 @@
 
 .main-article__link:hover,
 .main-article__link:active {
-  background-color: var(--soft-orange);
+  background-color: var(--very-dark-blue);
+}
+
+@media (min-width: 650px) {
+  .main-article__img {
+    background-size: auto;
+    aspect-ratio: 2/1;
+  }
+}
+
+@media (min-width: 725px) {
+  .main-article__img {
+    background-image: url('../images/image-web-3-desktop.jpg');
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-article {
+    display: grid;
+    margin: 0 2rem 0 0;
+    grid-template-areas:
+      'img img'
+      'title text'
+      'title button';
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-article__img {
+    aspect-ratio: 3/1;
+    grid-area: img;
+  }
+
+  .main-article__title {
+    grid-area: title;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .main-article__text {
+    grid-area: text;
+  }
+
+  .main-article__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: button;
+  }
 }

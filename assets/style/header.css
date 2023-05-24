@@ -86,3 +86,30 @@
   opacity: 0.6;
   z-index: 97;
 }
+
+@media (min-width: 520px) {
+  .menu__label__img-close.aberto {
+    transform: translateX(-100%);
+    right: -5%;
+  }
+}
+
+@media (min-width: 800px) {
+  .overlay {
+    display: none;
+  }
+
+  .menu__label__img-close,
+  .menu__label__img-open {
+    display: none;
+  }
+
+  .header__menu__list {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 0;
+    font-size: 1rem;
+  }
+}
